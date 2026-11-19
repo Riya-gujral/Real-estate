@@ -44,7 +44,7 @@
 
 
     
-<section class="search-section">
+<!-- <section class="search-section">
 
     <h2>Find Your Perfect Property</h2>
     <p>Search properties according to your needs.</p>
@@ -67,14 +67,41 @@
 
     <p id="searchMessage"></p>
 
+</section> -->
+
+
+
+    
+<section id="about" class="about">
+
+    <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800"
+        alt="Beautiful modern house">
+    </div>
+
+    <div class="about-content">
+
+        <p class="tagline">ABOUT </p>
+
+        <h2>Making Your Dream Home A Reality</h2>
+
+        <p>
+            Welcome to Estate, your trusted partner in finding
+            the perfect property. We help people discover
+            beautiful homes that match their lifestyle and budget.
+        </p>
+
+        <p>
+            Our goal is to make your property search simple,
+            comfortable and stress-free.
+        </p>
+
+        <!-- <button>Learn More</button> -->
+
+    </div>
+
 </section>
 
-
-
-    <section id="about" class="about">
-        <h2>Welcome to Estate</h2>
-        <p>We help you find the perfect property for your future.</p>
-    </section>
 
     <!-- <section id="properties" class="properties">
         <h2>Featured Properties</h2>
@@ -129,10 +156,43 @@
 
     </section>
 
-    <section id="contact" class="contact">
+    <!-- <section id="contact" class="contact">
         <h2>Contact Us</h2>
         <p>Get in touch with us to find your dream home.</p>
-    </section>
+    </section> -->
+
+
+<section id="contact" class="contact">
+    <p class="tagline">GET IN TOUCH</p>
+    <h2>Contact Us</h2>
+    <p>Have questions? We are here to help you find your dream home.</p>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <h3>Let's Talk About Your Dream Home</h3>
+            <p>Get in touch with our team and let us help you find the perfect property.</p>
+
+            <p> India</p>
+            <p> +91 98765 43210</p>
+            <p>✉️ estate@123.com</p>
+        </div>
+
+        <form class="contact-form" onsubmit="submitContact(event)">
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <input type="tel" id="phone" placeholder="Your Phone Number" required>
+
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+
+            <p id="contactMessage"></p>
+        </form>
+    </div>
+</section>
+
 
     <footer>
         <p>© 2026 Estate. All Rights Reserved.</p>
